@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTRY FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icons8-star-48.png">
+</head>
+<body>
+    <h1>BASIC REGISTRATION FORM</h1>
+
+    <form id="form">
+        <div class="form-control">
+            <label for="fname" id="label-fname">First Name:</label>
+            <input type="text" id="fname" placeholder="Spongebob">
+        </div>
+        <div class="form-control">
+            <label for="lname" id="label-lname">Last Name:</label>
+            <input type="text" id="lname" placeholder="Squarepants">
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">Email Address:</label>
+            <input type="email" id="email" placeholder="spongebobsquarepants@bikinibottom.com:">
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="text" id="age" placeholder="Enter Your Age:">
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">What Title Best Describes You?</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>Would you reccomend this site to the boys?</label>
+            <label for="reccomend">
+                <input type="radio" id="yes" name="reccomend" value="Yes">Yes
+            </label>
+             <label for="reccomend">
+                <input type="radio" id="no" name="reccomend"value="no">No
+            </label>
+             <label for="reccomend">
+                <input type="radio" id="idk" name="reccomend"value="idk">Idk
+            </label>
+        </div>
+        <div class="form-control">
+            <label>What programming languages are you familiar with?
+                <small>(Check the ones that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">C++
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">C#
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Python
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Java
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">JavaScript
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">Anything on your mind?</label>
+            <textarea name="comment" id="comment" placeholder="Talk to me..."></textarea>
+        </div>
+        <a href="page2.html" target="_blank">
+            <button type="button" value="submit">All done!</button>
+        </a>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    background-image: url("otios-photos-1006293.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.493);
+    border: #77777788;
+    margin: auto;
+    padding: 15px;
+}
+form{
+    background-color: #ffffff75;
+    max-width: fit-content;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5x 10px rgba(0, 0, 0 0.5);
+    border: #777;
+    border-radius: 8px;
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 4px;
+    font-family: papyrus;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.form-control select{
+    cursor: pointer;
+}
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+}
+button{
+    background-color: #0538c4;
+    border: 1px solid #777777c4;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 28px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+p{
+    border: #77777788;
+    border-style:inset;
+    border-radius: 5px;
+    border-width: 50px;
+    border-spacing: 500px;
+}
